@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter feed</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/form.js') }}"></script>
+
+
+</head>
+
+<div style="margin-top: 2%">
+<form id= formID method="post" action="#">
+    <label>Name</label><br/>
+    <input type="text" name="name" id="nameID" required style="width: 30%;"><br/>
+    <label>Feed</label><br/>
+    <textarea name="feed" id="feedID" placeholder="What's on your mind" required></textarea><br/>
+    <a href=# id=b1><button id="btn1">Submit</button></a>
+</form>
+</div>
+
+
+
+<div id="result">
+</div>
+
+
+</body>
+</html>

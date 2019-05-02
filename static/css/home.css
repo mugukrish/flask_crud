@@ -1,0 +1,25 @@
+form, input{
+    text-align: center;
+}
+label{
+    margin: 20px;
+    font-size: x-large;
+}
+textarea, input{
+    margin: 10px;
+    text-align: center;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+}
+#b1{
+    width: 20%;
+}
+hr{
+    width: 50%;
+}
+.all_feeds{
+    text-align: center;
+    margin: 10%;
+}
